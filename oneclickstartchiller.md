@@ -66,18 +66,16 @@
 | 48 | FreeCoolingValveCount | FC系统分支数量 |  |
 | 49 | FCFriendChillers | 与FC系统公用辅助设备的冷机清单，逗号分割 |  |
 | 50 | OneClickFreeCoolClose | FC系统一键关点名 |  |
-| 51 | OverrideChWPumpFreqSetting | override时的冷冻泵频率 |  |
-| 52 |  |  |  |
-| 53 |  |  |  |
-| 54 |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-| 3049 | Reserve03 | 保留 |  |
-| 31 | Log | 是否打Log，1打，0不打 |  |
-| 6 | OnSettingPointName | 开命令输出脉冲点名字符串 |  |
-| 7 | OffSettingPointName | 关命令输出脉冲点名字符串 |  |
+| 51 | OverrideChWPumpFreqSetting | override时的冷冻泵频率 | 45 |
+| 52 | NotTogetherRunChillerGroup | 不能一起运行的冷机序号 |  |
+| 53 | NotTogetherRunPriChWPGroup | 不能一起运行的冷冻泵序号 |  |
+| 54 | NotTogetherRunCWPGroup | 不能一起运行的冷却泵序号 |  |
+| 55 | NotTogetherRunCTGroup | 不能一起运行的冷却塔序号 |  |
+| 56 | FreeCoolingWithChillerNo | FC切换时的冷机 |  |
+| 57 | name | 策略名 | 商业开关机 |
+| 58 | ChAndCWPCountBinding | 特殊需多冷却泵运行的主机 |  |
+| 59 | bCheckFCChWValve | FreeCooling板交是否有电动阀 |  |
+| 60 | bCheckCoolingHeatingValve | 冷热水系统切换是否有电动阀 |  |
 
 # 举例
 
