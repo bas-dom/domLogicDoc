@@ -65,8 +65,8 @@
 | 47 | FCCWPNoList | FC系统冷却泵编号 |  |
 | 48 | FreeCoolingValveCount | FC系统分支数量 |  |
 | 49 | FCFriendChillers | 与FC系统公用辅助设备的冷机清单，逗号分割 |  |
-| 50 |  |  |  |
-| 51 |  |  |  |
+| 50 | OneClickFreeCoolClose | FC系统一键关点名 |  |
+| 51 | OverrideChWPumpFreqSetting | override时的冷冻泵频率 |  |
 | 52 |  |  |  |
 | 53 |  |  |  |
 | 54 |  |  |  |
