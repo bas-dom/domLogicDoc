@@ -31,17 +31,51 @@
 | 13 | PriChWPRunningTime | 一键关机一次泵继续运行的时间，单位：min | 配点名 |
 | 14 | ChSystemLag | 一键开机后系统稳定运行多久后可进入优化，单位：min |  |
 | 15 | CTStartFreqSetting | 冷却塔开启平率设置，0：优化，20-50：指定频率开启 | 0：根据室外干球温度自动计算频率 |
-| 16 |  |  |  |
-| 17 |  |  |  |
-| 18 |  |  |  |
-| 19 |  |  |  |
+| 16 | ChCheckTimeLag | 冷机开关检测时间，ms | 60000 |
+| 17 | ChWaitingTimeLag | 冷机开启后等待时间，ms | 10000 |
+| 18 | PriChWPCheckTimeLag | 一次泵开关检测时间，ms | 10000 |
+| 19 | PriChWPWaitingTimeLag | 一次泵开启后等待时间，ms | 10000 |
+| 20 | CWPCheckTimeLag | 冷却泵开关检测时间，ms | 10000 |
+| 21 | CWPWaitingTimeLag | 冷却泵开启后等待时间，ms | 10000 |
+| 22 | CTCheckTimeLag | 冷却塔开关检测时间，ms | 10000 |
+| 23 | CTWaitingTimeLag | 冷却塔开启后等待时间，ms | 10000 |
+| 24 | ValveCheckTimeLag | 冷机阀门开关检测时间，ms | 20000 |
+| 25 | ValveChWaitingTimeLag | 冷机阀门开启后等待时间，ms | 20000 |
+| 26 | m\_nCTRetryNum | 冷却塔开关机状态检测重试次数 | 10 |
+| 27 | m\_nCWPRetryNum | 冷却泵开关机状态检测重试次数 | 10 |
+| 28 | m\_nPriChWPRetryNum | 冷冻泵开关机状态检测重试次数 | 10 |
+| 29 | m\_nValveRetryNum | 阀门开关状态检测重试次数 | 10 |
+| 30 | OneClickClose | 一键关机点 |  |
+| 31 | OneClickCancel | 一键关机取消 |  |
+| 32 | OneClickHint | 一键开关机信息提示点 |  |
+| 33 | enableCondition | 一键开关机条件点，0：不可执行，1：可执行 |  |
+| 34 | m\_nChStartNum | 冷机编号开始点，与设备命名编号一致 |  |
+| 35 | PIDEnableCT | 冷却塔PID使能点 |  |
+| 36 | PIDEnableCWP | 冷却泵PID使能点 |  |
+| 37 | PIDEnablePriChWP | 冷冻泵PID使能点 |  |
+| 38 | SystemControlStatus | 状态点 |  |
+| 39 | LogEnable | 调试LOG开启 |  |
+| 40 | ValveOnOffSettingPointName | 调试LOG开启 |  |
+| 41 | ValveOnOffPointName | 调试LOG是否开启 |  |
+| 42 | FCEnable | FC是否在系统中 |  |
+| 43 | OneClickFreeCoolStart | FC系统一键开点名 |  |
+| 44 | FCHXChWValvePoint | 板交冷冻阀开关点前缀，不含OnOff之类 |  |
+| 45 | FCHXCWValvePoint | 板交冷却阀开关点前缀 |  |
+| 46 | FCChWPNoList | FC系统冷冻泵编号 |  |
+| 47 | FCCWPNoList | FC系统冷却泵编号 |  |
+| 48 | FreeCoolingValveCount | FC系统分支数量 |  |
+| 49 | FCFriendChillers | 与FC系统公用辅助设备的冷机清单，逗号分割 |  |
+| 50 |  |  |  |
+| 51 |  |  |  |
+| 52 |  |  |  |
+| 53 |  |  |  |
+| 54 |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-|  |  |  |  |
-| 4 | Reserve03 | 保留 |  |
-| 5 | Log | 是否打Log，1打，0不打 |  |
+| 3049 | Reserve03 | 保留 |  |
+| 31 | Log | 是否打Log，1打，0不打 |  |
 | 6 | OnSettingPointName | 开命令输出脉冲点名字符串 |  |
 | 7 | OffSettingPointName | 关命令输出脉冲点名字符串 |  |
 
