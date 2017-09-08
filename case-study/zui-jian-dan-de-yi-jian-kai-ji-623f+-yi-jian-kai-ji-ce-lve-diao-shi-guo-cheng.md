@@ -16,15 +16,17 @@ ChMotorRunHour\*\*
 
 ChEvaValveOnOffSetting\*\*、ChConValveOnOffSetting\*\*
 
-
-
 # 策略开启和LOG开启
 
 调试时确保一键开机房策略打开，同时 一键开机策略打开（这里的打开是指策略线程上点击运行）。
 
 同时策略参数中的Enable设置为1\(const\)，LogEnable设置为1\(const\)
 
-# 策略流程
+# 策略流程与调试
 
 `一键开机房策略`会在收到开机房指令（OneClickStartRoom=1）后决策开什么机组，这里假设是选择了2号机组，然后会将OneClickStart02点设置为1，然后交由`一键开机策略`执行。
+
+调试时，先调试一键开机策略，将OneClickStart01设置为1，然后观察系统是否能开机正常，查看一键开机策略的LOG是否有ERROR。
+
+一键开机策略正确无误后，再调试一键开机房策略，测试选机是否正常，指令是否能输出到OneClickStart\*\*。
 
