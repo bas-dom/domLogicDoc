@@ -30,3 +30,17 @@ ChEvaValveOnOffSetting\*\*、ChConValveOnOffSetting\*\*
 
 一键开机策略正确无误后，再调试一键开机房策略，测试选机是否正常，指令是否能输出到OneClickStart\*\*。
 
+# 常见问题
+
+
+
+StandardOneClickStart策略不可用
+
+> 策略配置的enableCondition参数，检查是否点位存在，或者是否配置为了1\(Const\)
+
+strPriChWPList参数不合法
+
+>
+
+
+

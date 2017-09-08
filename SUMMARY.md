@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [摘要](README.md)
 * [ChillerPulseOnOff](chillerpulseonoff.md)
 * [OneClickStartChiller](oneclickstartchiller.md)
 * [OneClickStartChillerPlantRoom](oneclickstartchillerplantroom.md)
