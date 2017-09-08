@@ -18,5 +18,5 @@ ChEvaValveOnOffSetting\*\*、ChConValveOnOffSetting\*\*
 
 # 策略流程
 
-`一键开机房策略`会在收到开机房指令（OneClickStartRoom=1）后决策开什么机组，这里假设是选择了2号机组，然后会将OneClickStart01点设置为1，然后交由`一键开机策略`执行。
+`一键开机房策略`会在收到开机房指令（OneClickStartRoom=1）后决策开什么机组，这里假设是选择了2号机组，然后会将OneClickStart02点设置为1，然后交由`一键开机策略`执行。
 
