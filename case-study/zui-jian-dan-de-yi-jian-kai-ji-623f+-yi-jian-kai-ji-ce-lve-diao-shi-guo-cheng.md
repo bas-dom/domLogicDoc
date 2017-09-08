@@ -12,13 +12,15 @@ ChOnOff\*\*
 
 ChMotorRunHour\*\*
 
-
-
 如果系统配置了阀门，需要根据标准点名规范配置：
 
 ChEvaValveOnOffSetting\*\*、ChConValveOnOffSetting\*\*
 
 
 
+# 策略流程
 
+`一键开机房策略`会决策开什么机组
+
+然后交由`一键开机策略`执行
 
