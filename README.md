@@ -19,6 +19,15 @@
 | MathScale | 数值变比放大或缩小 |
 | MathMaxMinAvg | 求最大最小或平均的统计策略 |
 
+## 机房标准化计算类
+
+|  |  |
+| :--- | :--- |
+| WetbulbTemp |  |
+|  |  |
+|  |  |
+|  |  |
+
 ## 无人值守机房策略类
 
 | 策略标识 | 策略用途描述 |
@@ -27,6 +36,37 @@
 | OneClickStartChillerPlantRoom | 一键开机房 |
 | OneClickStartChiller | 一键开机 |
 | StandardChillerAddSubControl | 加减机 |
+
+
+
+# 诊断
+
+| 策略标识 | 策略用途描述 |
+| :--- | :--- |
+| DiagnosisCommon | 常规诊断 |
+| DiagnosisAHU | AHU诊断 |
+
+
+
+
+
+
+# 优化控制
+
+| 策略标识 | 策略用途描述 |
+| :--- | :--- |
+| StandardChillerPlantRoomOptimizeV1 | 机房优化(V1引擎) |
+
+
+
+
+
+
+# 仿真工具类
+
+| 策略标识	 | 策略用途描述 |
+| :--- | :--- |
+| DemoResponse | 仿真机房的开关响应 |
 
 
 
