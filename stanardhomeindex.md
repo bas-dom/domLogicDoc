@@ -26,12 +26,12 @@ IndexPowerTotalToday，IndexPowerTotalDelta，IndexLoadToday，IndexLoadDelta，
 
 |  |  |  |
 | :--- | :--- | :--- |
-|输入参数1 | :选择是否显示Log，0=不打log，1=打log  |  |  
-| 输入参数2 | 选择本项目所使用的流量单位，流量单位会影响到冷量计算以及效率计算，0=立方米每小时，1=升每秒||
-| 输入参数3-9 | 选择本项目的设备台数，如无则填零 |  |  
-| 输入参数10 | 选择是否进行部分参数的昨今对比 |  |  
-| 输入参数11 | 选择需要计算的末端数量 |  |  
-|  |  |  |  
+| 输入参数1 | :选择是否显示Log，0=不打log，1=打log |  |
+| 输入参数2 | 选择本项目所使用的流量单位，流量单位会影响到冷量计算以及效率计算，0=立方米每小时，1=升每秒 |  |
+| 输入参数3-9 | 选择本项目的设备台数，如无则填零 |  |
+| 输入参数10 | 选择是否进行部分参数的昨今对比 |  |
+| 输入参数11 | 选择需要计算的末端数量 |  |
+|  |  |  |
 |  |  |  |
 
 # 计算原理
@@ -59,19 +59,23 @@ IndexPowerTotalToday，IndexPowerTotalDelta，IndexLoadToday，IndexLoadDelta，
 2. 冷冻泵不运行时不累加
 ```
 
-## EfficiencyTotal（机房实时效率）
+## EfficiencyTotal、EfficiencyTotalCOP（机房实时效率）
 
 机房实时效率是在某一个时刻的机房效率指标
 
-单位：kw/ton
+单位：kw/ton，带COP后缀的为kW/kW
 
 计算方法：当前制冷出力/当前机房总功率（冷机、冷冻泵、冷却泵、冷却塔）
 
 
 
+## ChGroupRealtimeEfficiency、ChGroupRealtimeEfficiencyCOP（冷机总实时效率）
 
+冷机总实时效率是在某一个时刻的所有运行中冷机组合后的总效率指标
 
+单位：kw/ton，带COP后缀的为kW/kW
 
+计算方法：当前制冷出力/当前冷机总功率
 
 
 
