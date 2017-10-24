@@ -6,6 +6,7 @@
 * [OneClickStartChillerPlantRoom](oneclickstartchillerplantroom.md)
 * [StandChillerStandby](standchillerstandby.md)
 * [StanardHomeIndex](stanardhomeindex.md)
+* [DemoResponse](demoresponse.md)
 
 ## Case Study
 
